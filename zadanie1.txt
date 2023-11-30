@@ -1,0 +1,30 @@
+Sprawdzić działanie:
+X is 2 + 2. 			% X = 4 bo 2+2= 4
+Y is 2.5 + ( 4 / 2). 		%Y = 4.5 bo 2.5 + 2 = 4.5
+Z is 2 + 0.001. 		%Z = 2.001 bo 2 + 0,001 = 2,001
+
+Uwaga:
+A is 3. 			% A = 3 bo 3 = 3
+B is A + 4.			%error nie ma A
+A is 3, B is A + 4.		% A=3 ,B=3+4= 7
+
+Operacje arytmetyczne:
+X is 2 + 2.			%X = 4 bo 2+2
+X is 2 * 3.			%X = 6 bo 2*3
+X is 4 / 2.			%X = 2 bo 4/2=2
+X is 4 / 3.			%X=1.(3) bo 4/3=1.(3)
+X is 4 // 3.			%X=1 bo 4//3 = 1 +1r
+
+Uwaga na ,,podstawianie'':
+X is 2 + 5.			%X=7 bo 2_5
+X = 2 + 5.			%X = 2+5. bez operacji na danych
+2 + 5 =:= 1 + 4.		%false poniewarz 2+5 = 7 |=| 1+4=5 stronu nie są równe
+2 + 5 =:= 3 + 4.		%true poniewarz 7 = 7
+2 + 5 =:= 4 + 4.		%false poniewarz 7 nie jest równe 8
+
+Przećwiczyć użycie operatorów:
+2 < 3.				%true
+2 > 3.				%false
+3 > 3.				%false
+3 >= 3.				%true
+3 =< 3.				%true
